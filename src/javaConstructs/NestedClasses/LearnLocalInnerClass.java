@@ -1,4 +1,4 @@
-package NestedClasses;
+package javaConstructs.NestedClasses;
 
 /*
  *  - - - - http://tutorials.jenkov.com/java/nested-classes.html - - - - 
