@@ -15,7 +15,7 @@ public class ReverseLinkedListInSizeK {
 		 *  3. return prev /* prev becomes the new head of the list (see the diagrams of iterative method of this post) 
 		 */
 		
-		if(head == null || head.next==null) {
+		if(head == null /*|| head.next==null*/) {
 			return head;
 		}
 		
@@ -25,7 +25,7 @@ public class ReverseLinkedListInSizeK {
 		int n = k;
 		
 		//1. Reverse the first sub-list of size k. While reversing keep track of the next node and previous node
-		while(curr!=null && k > 0 ) {
+		while(curr!=null && n > 0 ) {
 			next = curr.next;
 			curr.next = prev;
 			prev = curr;
@@ -47,6 +47,7 @@ public class ReverseLinkedListInSizeK {
 		ll.head.next.next = new Node(30);
 		ll.head.next.next.next = new Node(40);
 		ll.head.next.next.next.next = new Node(50);
+		ll.printLinkedList();
 		
 		ReverseLinkedListInSizeK obj = new ReverseLinkedListInSizeK();
 		LinkedList res = new LinkedList();

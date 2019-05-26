@@ -10,7 +10,9 @@ public class ScannerTest {
 		int p = sc.nextInt();
 		String q = sc.nextLine();
 		/*
-		 * next() can read the input only till the space. It can't read two words separated by space. Also, next() places the cursor in the same line after reading the input. nextLine() reads input including space between the words (that is, it reads till the end of line \n).Mar 17, 2014
+		 * next() can read the input only till the space. It can't read two words separated by space. Also, next() places
+		 * the cursor in the same line after reading the input. nextLine() reads input including space between the words
+		 * (that is, it reads till the end of line \n).Mar 17, 2014
 		 */
 		 String j = sc.next();
 		 

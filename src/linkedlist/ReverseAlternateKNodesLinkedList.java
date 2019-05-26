@@ -34,11 +34,7 @@ public class ReverseAlternateKNodesLinkedList {
 		if(curr!= null) {
 			curr.next = reverseAltenrateKNodes(curr.next, k);
 		}
-		
-		
-		
-		
-		
+
 		return prev;
 	}
 
