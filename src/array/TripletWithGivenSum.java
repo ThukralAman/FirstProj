@@ -1,12 +1,6 @@
 package array;
 
-<<<<<<< HEAD
-/**
- * Created by amthukra on 5/16/2019.
- */
-public class TripletWithGivenSum {
-}
-=======
+
 
 import java.util.HashMap;
 import java.util.Map;
@@ -37,6 +31,3 @@ public class TripletWithGivenSum {
 
     }
 }
-
-
->>>>>>> master
