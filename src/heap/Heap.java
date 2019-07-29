@@ -8,6 +8,15 @@ import java.util.Scanner;
  *  - Can be represented in array with:
  *	- parent i=0, child1 = (2*i+1) child2 =(2*i+2)
  *
+ 
+ *   Major operstions on a heap discussed below:
+ *	1. CreateHeap() O(n)
+ *	2. Extract Max() 
+ * 	3. increaseKey()
+ * 	4. decreaseKey()
+ * 	5. heapSort()
+ *	6. findMinInMaxHeap()
+ *	7. deleteNthNode()
  *
  * - If in a max heap changing value (say DECREASING value) of any node affects its heap property for children, then call HEAPIFY on that node
  * - If in a max heap changing value (say INCREASING value) of any node affects its heap property for parent, then call recursively check for parent and swap till root.
