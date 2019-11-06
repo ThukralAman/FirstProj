@@ -126,6 +126,9 @@ public class Heap {
 	 * 
 	 * 
 	 * Also see Keep Notes
+	 * For nodes starting from n/2. Out of the n/2 nodes n/4 nodes need only one swap. n/8 nodes need two swaps and so on 
+	 
+	 * So n/4*1 + n/8*2 + n/16*3
 	 * 
 	 */
 
